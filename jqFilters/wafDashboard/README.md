@@ -2,10 +2,10 @@
 This `jq` filter file takes the rule status information for a Fastly WAF object and extracts the following information:
 * WAF status
 * Counts of rules in the following categories:
- * OWASP Counter Rules (Rule ID = 9\*)
- * OWASP Threshold Rules (Rule ID = 101\*)
- * Trustwave SLR App-Specific Rules (Rule ID = 2\*)
- * Fastly Internal Rules (Rule ID = 2\* or 100\*)
+   * OWASP Counter Rules (Rule ID = 9\*)
+   * OWASP Threshold Rules (Rule ID = 101\*)
+   * Trustwave SLR App-Specific Rules (Rule ID = 2\*)
+   * Fastly Internal Rules (Rule ID = 2\* or 100\*)
 
 ## Requirements
 - a Fastly WAF and the ability to query its rule statuses
